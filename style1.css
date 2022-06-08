@@ -68,23 +68,42 @@ body{
        background-color: lightblue;
        height: 50vh;
        width: 40vw;
-       position: absolute;
-       top: calc((100vh-50h)/2);
+       position: absolute; 
+        top: 12rem;
+       right: 33rem; 
+         /* top: calc((100vh-50h)/2);
        left: calc((100vw-45vw)/2);
-       
+         */
       }
 
       .textcourt{
         height: 100%;
-        width: 70%;    
-       } 
+        width: 70%;
+        background-color: #dfe4ea;    
+        border: none;
+        resize: none;
+        font-size: 1rem;
+      } 
 
    .priority{
-      background-color: #4b4b4b;  
-       height: 100%; 
-       width: 30%;
+    width: 35%;
+    height: 100%;
+    background-color: #4b4b4b;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+      
+      }
+
+      .priority>div{
+        display: flex;
+       height: 2rem;
+       width: 4rem;
+      
       }
     
     
+
     
      
