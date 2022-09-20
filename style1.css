@@ -2,12 +2,12 @@
   box-sizing: border-box;
 }
 
-body{
+ body{
   margin: 0;
   padding: 0;
-}
+ }
 
-.Toolbox-cont{
+ .Toolbox-cont{
   display: flex;
   height: 5rem;
   align-items: center;
@@ -64,7 +64,7 @@ body{
 }
 
    .model-content{
-       display: flex;
+       display: none;
        background-color: lightblue;
        height: 50vh;
        width: 40vw;
@@ -75,8 +75,8 @@ body{
        left: calc((100vw-45vw)/2);
          */
       }
-
-      .textcourt{
+   
+   .textcourt{
         height: 100%;
         width: 70%;
         background-color: #dfe4ea;    
@@ -86,24 +86,74 @@ body{
       } 
 
    .priority{
-    width: 35%;
-    height: 100%;
-    background-color: #4b4b4b;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    align-items: center;
+      width: 35%;
+      height: 100%;
+      background-color: #4b4b4b;
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: column;
+      align-items: center;
       
       }
 
-      .priority>div{
+   .priority>div{
         display: flex;
        height: 2rem;
        width: 4rem;
       
       }
     
-    
+   .ticket-cont{
+      height:12rem;
+      width: 15rem;
+      background-color: #f1f2f6;
+     }
 
+  .ticket-color{
+      height: 1rem;
+     }
+  .ticket-id{
+      height:2rem;
+      background-color: red;
+     }
+
+  .task-Area{
+     height: calc(100% -1rem -2rem);
+      font-size: 1.5rem;
+     }
+     
+  .ticket-lock{
+      display: flex;
+    justify-content: flex-end;
+    margin-top: 94px;
+    margin-right: 8px;
+     }
+
+  .main-cont{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 1rem;
+     }
     
      
+     /* .ticket-color{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: -29px;
+        margin-right: 11px;
+        font-size: 1.5rem;
+      }
+    
+      .main-cont{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: rem;
+        padding: 2rem;
+      }*/
+     
+  .active{
+        border: 5px solid red;
+      } 
